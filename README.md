@@ -15,23 +15,23 @@ The columns in the raw dataset are invoice number, product code, product descrip
 
 - Fixed column headers and set correct data types for each column
 - Removed extra spaces around text values
-- Removed rows with blank product description (1,454 rows removed)
+- Removed rows with blank product description.
 - Standardized country names, EIRE to Ireland and RSA to Russia
 - Added Total Sales column, calculated as Quantity multiplied by Unit Price
 - Added Invoice Cancellation column
 - Added Time column, separated from the original date and time value
 - Added Time Category column, grouping transactions into time blocks
-- Removed exact duplicate rows (5,270 rows removed)
-- Removed non-product records such as postage, dotcom postage, discounts, manual entries, samples, bank charges, amazon fees, and charity commission (2,900 rows removed)
-- Removed zero and negative priced rows representing stock adjustments such as damaged, found, and thrown away (9,716 rows removed)
+- Removed exact duplicate rows.
+- Removed non-product records such as postage, dotcom postage, discounts, manual entries, samples, bank charges, amazon fees, and charity commission.
+- Removed zero and negative priced rows representing stock adjustments such as damaged, found, and thrown away.
 
 ### Final Result
 
-Raw dataset row count: 5,81,587 (Note: this project references 541,909 rows in the working file. Please confirm which figure is correct before finalizing this document.)
-Final cleaned dataset row count: 522,569
-Total rows removed: 19,340
-Percentage of data removed: 3.57 percent
-Percentage of data kept: 96.43 percent
+Raw dataset row count: 5,41,909
+Final cleaned dataset row count: 5,31,237
+Total rows removed: 10,672
+Percentage of data removed: 1.96 percent
+Percentage of data kept: 98.04 percent
 
 ## Data Modeling
 
