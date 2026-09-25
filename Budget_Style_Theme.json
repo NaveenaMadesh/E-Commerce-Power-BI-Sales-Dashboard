@@ -1,0 +1,49 @@
+{
+  "name": "Navy Lavender Dashboard",
+  "dataColors": [
+    "#454273",
+    "#8B87C4",
+    "#B8B0DE",
+    "#C9C6EC",
+    "#6E6AA8",
+    "#A29DD1",
+    "#D6D2F0",
+    "#302E52"
+  ],
+  "background": "#EDEDF2",
+  "foreground": "#2E2C4D",
+  "tableAccent": "#454273",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false }],
+        "outline": [{ "show": false }],
+        "outlineColor": [{ "solid": { "color": "#FFFFFF" } }],
+        "visualHeader": [{ "background": { "solid": { "color": "#FFFFFF" } } }],
+        "title": [{
+          "fontColor": { "solid": { "color": "#2E2C4D" } },
+          "fontSize": 12,
+          "bold": true,
+          "alignment": "left"
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#454273" } }, "fontSize": 28, "bold": true }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#8B87C4" } }, "fontSize": 11 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#EDEDF2" } }, "transparency": 0 }]
+      }
+    }
+  },
+  "textClasses": {
+    "title": { "fontSize": 24, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "header": { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#2E2C4D" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#6E6AA8" }
+  }
+}
