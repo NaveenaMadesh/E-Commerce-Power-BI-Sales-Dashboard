@@ -111,6 +111,6 @@ Category level and country level top and bottom performers, across all KPIs, can
 - E-Commerce Sales Dashboard .pbix
 - E-Commerce Sales Dashboard. .pdf
 - Dashboard_Theme.json
-- Data Mondel.png
+- Data Model.png
 
 The original source data file is not included in this repository due to file size limitations.
